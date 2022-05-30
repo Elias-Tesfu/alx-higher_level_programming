@@ -1,0 +1,1 @@
+This is the Higer level programming language lesson under the alx 1 year Software engineering course. We will learn mainly Python.

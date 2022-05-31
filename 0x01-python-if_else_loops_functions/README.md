@@ -1,0 +1,1 @@
+This is the readme file for the second exrecise on the higer level programming section. Mainly focuses on if else loops

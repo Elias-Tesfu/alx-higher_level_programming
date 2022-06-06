@@ -1,0 +1,1 @@
+THis is the readme file for the fourth exercise we are doing in the python which is mainly focused on Lists and Tuples.

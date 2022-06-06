@@ -4,7 +4,6 @@
  * @head: head of node
  * Return: 0 if not, 1 if is
  */
-
 int is_palindrome(listint_t **head)
 {
 	unsigned int len = 1;
@@ -14,7 +13,7 @@ int is_palindrome(listint_t **head)
 		return (1);
 
 	temp = *head;
-	while (temp)
+	while (temp) /* get len of list */
 	{
 		temp = temp->next;
 		len++;

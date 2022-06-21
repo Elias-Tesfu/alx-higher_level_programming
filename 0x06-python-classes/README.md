@@ -1,0 +1,1 @@
+This is the read me file for the python exercise number six that deals with python classes

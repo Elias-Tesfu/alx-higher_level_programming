@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" square class
+""" Creates an empty class called Square
 """
 
 
@@ -42,14 +42,32 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-    def my_print(self):
+    def __lt__(self, other):
+        """ Compare if our square is less than the other
         """
-        Print a square with the character #
+        return self.area() < other.area()
+
+    def __le__(self, other):
+        """ Compare if our square is less ot equal than the other
         """
-        if self.__size == 0:
-            print()
-        else:
-            for row in range(self.__size):
-                for column in range(self.__size):
-                    print("#", end="")
-                print()
+        return self.area() <= other.area()
+
+    def __eq__(self, other):
+        """ Compare if our square is equal than the other
+        """
+        return self.area() == other.area()
+
+    def __ne__(self, other):
+        """ Compare if our square is different than the other
+        """
+        return self.area() != other.area()
+
+    def __gt__(self, other):
+        """ Compare if our square is greater than the other
+        """
+        return self.area() > other.area()
+
+    def __ge__(self, other):
+        """ Compare if our square is less than the other
+        """
+        return self.area() >= other.area()

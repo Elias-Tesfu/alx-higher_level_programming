@@ -1,0 +1,1 @@
+This is the readme file for the python exercise based on Inheritance

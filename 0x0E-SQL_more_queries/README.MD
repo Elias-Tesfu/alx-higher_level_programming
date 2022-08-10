@@ -1,0 +1,1 @@
+THis is the readme file for the SQL exercise second part.

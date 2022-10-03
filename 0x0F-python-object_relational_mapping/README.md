@@ -1,0 +1,1 @@
+This is the read me file for the python object relational mapping exercise
